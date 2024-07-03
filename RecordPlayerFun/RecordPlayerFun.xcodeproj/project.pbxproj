@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		263D90D52C35EB1100A4BCBF /* RecordPlayerFunApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263D90D42C35EB1100A4BCBF /* RecordPlayerFunApp.swift */; };
+		263D90D72C35EB1100A4BCBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263D90D62C35EB1100A4BCBF /* ContentView.swift */; };
+		263D90D92C35EB1200A4BCBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 263D90D82C35EB1200A4BCBF /* Assets.xcassets */; };
+		263D90DC2C35EB1200A4BCBF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 263D90DB2C35EB1200A4BCBF /* Preview Assets.xcassets */; };
+		263D90E62C35EB1200A4BCBF /* RecordPlayerFunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263D90E52C35EB1200A4BCBF /* RecordPlayerFunTests.swift */; };
+		263D90F02C35EB1200A4BCBF /* RecordPlayerFunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263D90EF2C35EB1200A4BCBF /* RecordPlayerFunUITests.swift */; };
+		263D90F22C35EB1200A4BCBF /* RecordPlayerFunUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263D90F12C35EB1200A4BCBF /* RecordPlayerFunUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		263D90E22C35EB1200A4BCBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 263D90C92C35EB1100A4BCBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 263D90D02C35EB1100A4BCBF;
+			remoteInfo = RecordPlayerFun;
+		};
+		263D90EC2C35EB1200A4BCBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 263D90C92C35EB1100A4BCBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 263D90D02C35EB1100A4BCBF;
+			remoteInfo = RecordPlayerFun;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		263D90D12C35EB1100A4BCBF /* RecordPlayerFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecordPlayerFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		263D90D42C35EB1100A4BCBF /* RecordPlayerFunApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordPlayerFunApp.swift; sourceTree = "<group>"; };
+		263D90D62C35EB1100A4BCBF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		263D90D82C35EB1200A4BCBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		263D90DB2C35EB1200A4BCBF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		263D90E12C35EB1200A4BCBF /* RecordPlayerFunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecordPlayerFunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		263D90E52C35EB1200A4BCBF /* RecordPlayerFunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordPlayerFunTests.swift; sourceTree = "<group>"; };
+		263D90EB2C35EB1200A4BCBF /* RecordPlayerFunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecordPlayerFunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		263D90EF2C35EB1200A4BCBF /* RecordPlayerFunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordPlayerFunUITests.swift; sourceTree = "<group>"; };
+		263D90F12C35EB1200A4BCBF /* RecordPlayerFunUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordPlayerFunUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		263D90CE2C35EB1100A4BCBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		263D90DE2C35EB1200A4BCBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		263D90E82C35EB1200A4BCBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		263D90C82C35EB1100A4BCBF = {
+			isa = PBXGroup;
+			children = (
+				263D90D32C35EB1100A4BCBF /* RecordPlayerFun */,
+				263D90E42C35EB1200A4BCBF /* RecordPlayerFunTests */,
+				263D90EE2C35EB1200A4BCBF /* RecordPlayerFunUITests */,
+				263D90D22C35EB1100A4BCBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		263D90D22C35EB1100A4BCBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				263D90D12C35EB1100A4BCBF /* RecordPlayerFun.app */,
+				263D90E12C35EB1200A4BCBF /* RecordPlayerFunTests.xctest */,
+				263D90EB2C35EB1200A4BCBF /* RecordPlayerFunUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		263D90D32C35EB1100A4BCBF /* RecordPlayerFun */ = {
+			isa = PBXGroup;
+			children = (
+				263D90D42C35EB1100A4BCBF /* RecordPlayerFunApp.swift */,
+				263D90D62C35EB1100A4BCBF /* ContentView.swift */,
+				263D90D82C35EB1200A4BCBF /* Assets.xcassets */,
+				263D90DA2C35EB1200A4BCBF /* Preview Content */,
+			);
+			path = RecordPlayerFun;
+			sourceTree = "<group>";
+		};
+		263D90DA2C35EB1200A4BCBF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				263D90DB2C35EB1200A4BCBF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		263D90E42C35EB1200A4BCBF /* RecordPlayerFunTests */ = {
+			isa = PBXGroup;
+			children = (
+				263D90E52C35EB1200A4BCBF /* RecordPlayerFunTests.swift */,
+			);
+			path = RecordPlayerFunTests;
+			sourceTree = "<group>";
+		};
+		263D90EE2C35EB1200A4BCBF /* RecordPlayerFunUITests */ = {
+			isa = PBXGroup;
+			children = (
+				263D90EF2C35EB1200A4BCBF /* RecordPlayerFunUITests.swift */,
+				263D90F12C35EB1200A4BCBF /* RecordPlayerFunUITestsLaunchTests.swift */,
+			);
+			path = RecordPlayerFunUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		263D90D02C35EB1100A4BCBF /* RecordPlayerFun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 263D90F52C35EB1200A4BCBF /* Build configuration list for PBXNativeTarget "RecordPlayerFun" */;
+			buildPhases = (
+				263D90CD2C35EB1100A4BCBF /* Sources */,
+				263D90CE2C35EB1100A4BCBF /* Frameworks */,
+				263D90CF2C35EB1100A4BCBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecordPlayerFun;
+			productName = RecordPlayerFun;
+			productReference = 263D90D12C35EB1100A4BCBF /* RecordPlayerFun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		263D90E02C35EB1200A4BCBF /* RecordPlayerFunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 263D90F82C35EB1200A4BCBF /* Build configuration list for PBXNativeTarget "RecordPlayerFunTests" */;
+			buildPhases = (
+				263D90DD2C35EB1200A4BCBF /* Sources */,
+				263D90DE2C35EB1200A4BCBF /* Frameworks */,
+				263D90DF2C35EB1200A4BCBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				263D90E32C35EB1200A4BCBF /* PBXTargetDependency */,
+			);
+			name = RecordPlayerFunTests;
+			productName = RecordPlayerFunTests;
+			productReference = 263D90E12C35EB1200A4BCBF /* RecordPlayerFunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		263D90EA2C35EB1200A4BCBF /* RecordPlayerFunUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 263D90FB2C35EB1200A4BCBF /* Build configuration list for PBXNativeTarget "RecordPlayerFunUITests" */;
+			buildPhases = (
+				263D90E72C35EB1200A4BCBF /* Sources */,
+				263D90E82C35EB1200A4BCBF /* Frameworks */,
+				263D90E92C35EB1200A4BCBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				263D90ED2C35EB1200A4BCBF /* PBXTargetDependency */,
+			);
+			name = RecordPlayerFunUITests;
+			productName = RecordPlayerFunUITests;
+			productReference = 263D90EB2C35EB1200A4BCBF /* RecordPlayerFunUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		263D90C92C35EB1100A4BCBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					263D90D02C35EB1100A4BCBF = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					263D90E02C35EB1200A4BCBF = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 263D90D02C35EB1100A4BCBF;
+					};
+					263D90EA2C35EB1200A4BCBF = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 263D90D02C35EB1100A4BCBF;
+					};
+				};
+			};
+			buildConfigurationList = 263D90CC2C35EB1100A4BCBF /* Build configuration list for PBXProject "RecordPlayerFun" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 263D90C82C35EB1100A4BCBF;
+			productRefGroup = 263D90D22C35EB1100A4BCBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				263D90D02C35EB1100A4BCBF /* RecordPlayerFun */,
+				263D90E02C35EB1200A4BCBF /* RecordPlayerFunTests */,
+				263D90EA2C35EB1200A4BCBF /* RecordPlayerFunUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		263D90CF2C35EB1100A4BCBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				263D90DC2C35EB1200A4BCBF /* Preview Assets.xcassets in Resources */,
+				263D90D92C35EB1200A4BCBF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		263D90DF2C35EB1200A4BCBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		263D90E92C35EB1200A4BCBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		263D90CD2C35EB1100A4BCBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				263D90D72C35EB1100A4BCBF /* ContentView.swift in Sources */,
+				263D90D52C35EB1100A4BCBF /* RecordPlayerFunApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		263D90DD2C35EB1200A4BCBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				263D90E62C35EB1200A4BCBF /* RecordPlayerFunTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		263D90E72C35EB1200A4BCBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				263D90F22C35EB1200A4BCBF /* RecordPlayerFunUITestsLaunchTests.swift in Sources */,
+				263D90F02C35EB1200A4BCBF /* RecordPlayerFunUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		263D90E32C35EB1200A4BCBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 263D90D02C35EB1100A4BCBF /* RecordPlayerFun */;
+			targetProxy = 263D90E22C35EB1200A4BCBF /* PBXContainerItemProxy */;
+		};
+		263D90ED2C35EB1200A4BCBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 263D90D02C35EB1100A4BCBF /* RecordPlayerFun */;
+			targetProxy = 263D90EC2C35EB1200A4BCBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		263D90F32C35EB1200A4BCBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		263D90F42C35EB1200A4BCBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		263D90F62C35EB1200A4BCBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RecordPlayerFun/Preview Content\"";
+				DEVELOPMENT_TEAM = P92GSKWU9W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sarah.RecordPlayerFun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		263D90F72C35EB1200A4BCBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RecordPlayerFun/Preview Content\"";
+				DEVELOPMENT_TEAM = P92GSKWU9W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sarah.RecordPlayerFun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		263D90F92C35EB1200A4BCBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P92GSKWU9W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sarah.RecordPlayerFunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecordPlayerFun.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RecordPlayerFun";
+			};
+			name = Debug;
+		};
+		263D90FA2C35EB1200A4BCBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P92GSKWU9W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sarah.RecordPlayerFunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecordPlayerFun.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RecordPlayerFun";
+			};
+			name = Release;
+		};
+		263D90FC2C35EB1200A4BCBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P92GSKWU9W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sarah.RecordPlayerFunUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RecordPlayerFun;
+			};
+			name = Debug;
+		};
+		263D90FD2C35EB1200A4BCBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P92GSKWU9W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sarah.RecordPlayerFunUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RecordPlayerFun;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		263D90CC2C35EB1100A4BCBF /* Build configuration list for PBXProject "RecordPlayerFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				263D90F32C35EB1200A4BCBF /* Debug */,
+				263D90F42C35EB1200A4BCBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		263D90F52C35EB1200A4BCBF /* Build configuration list for PBXNativeTarget "RecordPlayerFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				263D90F62C35EB1200A4BCBF /* Debug */,
+				263D90F72C35EB1200A4BCBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		263D90F82C35EB1200A4BCBF /* Build configuration list for PBXNativeTarget "RecordPlayerFunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				263D90F92C35EB1200A4BCBF /* Debug */,
+				263D90FA2C35EB1200A4BCBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		263D90FB2C35EB1200A4BCBF /* Build configuration list for PBXNativeTarget "RecordPlayerFunUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				263D90FC2C35EB1200A4BCBF /* Debug */,
+				263D90FD2C35EB1200A4BCBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 263D90C92C35EB1100A4BCBF /* Project object */;
+}
