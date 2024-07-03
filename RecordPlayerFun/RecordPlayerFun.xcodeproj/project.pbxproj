@@ -14,6 +14,7 @@
 		263D90E62C35EB1200A4BCBF /* RecordPlayerFunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263D90E52C35EB1200A4BCBF /* RecordPlayerFunTests.swift */; };
 		263D90F02C35EB1200A4BCBF /* RecordPlayerFunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263D90EF2C35EB1200A4BCBF /* RecordPlayerFunUITests.swift */; };
 		263D90F22C35EB1200A4BCBF /* RecordPlayerFunUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263D90F12C35EB1200A4BCBF /* RecordPlayerFunUITestsLaunchTests.swift */; };
+		263D90FF2C35F98700A4BCBF /* music.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 263D90FE2C35F98700A4BCBF /* music.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		263D90EB2C35EB1200A4BCBF /* RecordPlayerFunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecordPlayerFunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		263D90EF2C35EB1200A4BCBF /* RecordPlayerFunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordPlayerFunUITests.swift; sourceTree = "<group>"; };
 		263D90F12C35EB1200A4BCBF /* RecordPlayerFunUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordPlayerFunUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		263D90FE2C35F98700A4BCBF /* music.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = music.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				263D90D42C35EB1100A4BCBF /* RecordPlayerFunApp.swift */,
 				263D90D62C35EB1100A4BCBF /* ContentView.swift */,
+				263D90FE2C35F98700A4BCBF /* music.m4a */,
 				263D90D82C35EB1200A4BCBF /* Assets.xcassets */,
 				263D90DA2C35EB1200A4BCBF /* Preview Content */,
 			);
@@ -233,6 +236,7 @@
 			files = (
 				263D90DC2C35EB1200A4BCBF /* Preview Assets.xcassets in Resources */,
 				263D90D92C35EB1200A4BCBF /* Assets.xcassets in Resources */,
+				263D90FF2C35F98700A4BCBF /* music.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
