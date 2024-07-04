@@ -15,6 +15,8 @@
 		263D90F02C35EB1200A4BCBF /* RecordPlayerFunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263D90EF2C35EB1200A4BCBF /* RecordPlayerFunUITests.swift */; };
 		263D90F22C35EB1200A4BCBF /* RecordPlayerFunUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263D90F12C35EB1200A4BCBF /* RecordPlayerFunUITestsLaunchTests.swift */; };
 		263D90FF2C35F98700A4BCBF /* music.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 263D90FE2C35F98700A4BCBF /* music.m4a */; };
+		263D91022C36D89F00A4BCBF /* RecordPlayerBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263D91012C36D89F00A4BCBF /* RecordPlayerBoxView.swift */; };
+		263D91042C36DB2C00A4BCBF /* RecordButtonArmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263D91032C36DB2C00A4BCBF /* RecordButtonArmView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		263D90EF2C35EB1200A4BCBF /* RecordPlayerFunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordPlayerFunUITests.swift; sourceTree = "<group>"; };
 		263D90F12C35EB1200A4BCBF /* RecordPlayerFunUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordPlayerFunUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		263D90FE2C35F98700A4BCBF /* music.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = music.m4a; sourceTree = "<group>"; };
+		263D91012C36D89F00A4BCBF /* RecordPlayerBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordPlayerBoxView.swift; sourceTree = "<group>"; };
+		263D91032C36DB2C00A4BCBF /* RecordButtonArmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordButtonArmView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +100,8 @@
 		263D90D32C35EB1100A4BCBF /* RecordPlayerFun */ = {
 			isa = PBXGroup;
 			children = (
+				263D91002C36D86E00A4BCBF /* Views */,
 				263D90D42C35EB1100A4BCBF /* RecordPlayerFunApp.swift */,
-				263D90D62C35EB1100A4BCBF /* ContentView.swift */,
 				263D90FE2C35F98700A4BCBF /* music.m4a */,
 				263D90D82C35EB1200A4BCBF /* Assets.xcassets */,
 				263D90DA2C35EB1200A4BCBF /* Preview Content */,
@@ -128,6 +132,16 @@
 				263D90F12C35EB1200A4BCBF /* RecordPlayerFunUITestsLaunchTests.swift */,
 			);
 			path = RecordPlayerFunUITests;
+			sourceTree = "<group>";
+		};
+		263D91002C36D86E00A4BCBF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				263D90D62C35EB1100A4BCBF /* ContentView.swift */,
+				263D91012C36D89F00A4BCBF /* RecordPlayerBoxView.swift */,
+				263D91032C36DB2C00A4BCBF /* RecordButtonArmView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +277,8 @@
 			files = (
 				263D90D72C35EB1100A4BCBF /* ContentView.swift in Sources */,
 				263D90D52C35EB1100A4BCBF /* RecordPlayerFunApp.swift in Sources */,
+				263D91042C36DB2C00A4BCBF /* RecordButtonArmView.swift in Sources */,
+				263D91022C36D89F00A4BCBF /* RecordPlayerBoxView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
